@@ -1,4 +1,5 @@
 let allUsers = JSON.parse(localStorage.getItem("Users"))
+console.log(allUsers)
 function signIn(){  
     let findUsers = allUsers.find((val) => val.email == mail.value)
     console.log(findUsers);

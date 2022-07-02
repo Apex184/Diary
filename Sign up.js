@@ -30,6 +30,7 @@ function signUp() {
         allUser.push(obj);
         // console.log(allUser);
         localStorage.setItem("Users", JSON.stringify(allUser));
+        console.log(allUser);
 
     }
     else {
